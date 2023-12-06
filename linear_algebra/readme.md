@@ -1,4 +1,4 @@
-# Отток клиентов
+# Защита персональных данных клиентов
 
 [Блокнот](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/linear_algebra/linear_algebra.ipynb)
 
