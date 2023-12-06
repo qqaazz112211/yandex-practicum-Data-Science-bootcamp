@@ -1,6 +1,6 @@
 # Определение возраста покупателей
 
-Блокнот(https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/computer_vision/computer_vision.ipynb)
+[Блокнот](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/computer_vision/computer_vision.ipynb)
 
 ## Описание проекта
 
