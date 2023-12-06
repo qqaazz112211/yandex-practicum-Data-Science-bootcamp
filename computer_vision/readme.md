@@ -1,26 +1,25 @@
-# Анализ текстов
+# Определение возраста покупателей
 
-https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/computer_vision/computer_vision.ipynb
+Блокнот(https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/computer_vision/computer_vision.ipynb)
 
 ## Описание проекта
 
-Требуется анализировать комментарии пользователей на английском языке и выделять токсичные, чтобы отправить на модерацию.
+Необходимо построить модель, которая по фотографии определит приблизительный возраст человека. 
 
 
+## Библиотеки и инструменты
 
-## Навыки и инструменты
-
-- **python**
-- **pandas**
-- **numpy**
-- nltk.stem.**WordNetLemmatizer**
-- sklearn.feature_extraction.text.**TfidfVectorizer**
-- sklearn.linear_model.**LogisticRegression**
-- sklearn.ensemble.**RandomForestClassifier**
-- catboost.**CatBoostClassifier**
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sn
+from PIL import Image
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import plotly.express as px
+from tqdm.notebook import tqdm_notebook as tqdm
 
 
 
 ## Вывод
 
-Была проведена исследовательская работа по обработке текстов и обучению и выбору модели для определения токсичных комментариев по методу TF-IDF. Выбрана линейная регрессия. Намечены шаги по дальнейшей настройке модели.
+Модель построена и выполняет поставленные задачи. Представлены предлложения по улучшению
