@@ -1,4 +1,4 @@
-# Промышленность
+# Прогнозирование заказов такси
 
 [Блокнот](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/forecasting_cab_orders/forecasting_cab_orders.ipynb)
 
