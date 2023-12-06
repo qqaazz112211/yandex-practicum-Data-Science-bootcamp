@@ -7,7 +7,7 @@
 Построить модель предсказания количества заказов такси на следующий час для привлечения больше водителей в период пиковой нагрузки.
 
 ## Библиотеки и инструменты
-
+~~~
 import pandas as pd  
 import numpy as np  
 import matplotlib.pyplot as plt  
@@ -27,7 +27,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor  
 import plotly.express as px  
 from sklearn.model_selection import TimeSeriesSplit  
-from tqdm import tqdm  
+from tqdm import tqdm ~~~ 
 
 
 
