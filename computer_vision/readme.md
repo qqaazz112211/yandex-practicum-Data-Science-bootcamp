@@ -9,14 +9,14 @@
 
 ## Библиотеки и инструменты
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sn
-from PIL import Image
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-import plotly.express as px
-from tqdm.notebook import tqdm_notebook as tqdm
+import pandas as pd 
+import numpy as np 
+import matplotlib.pyplot as plt 
+import seaborn as sn 
+from PIL import Image 
+from tensorflow.keras.preprocessing.image import ImageDataGenerator 
+import plotly.express as px 
+from tqdm.notebook import tqdm_notebook as tqdm 
 
 
 
