@@ -1,19 +1,26 @@
-| Название проекта | Описание | 
-| :---------------------- | :---------------------- |
-| Computer vision | Построение модели, которая по фотографии определяет приблизительный возраст человека.|
+# Анализ текстов
+
+https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/computer_vision/computer_vision.ipynb
+
+## Описание проекта
+
+Требуется анализировать комментарии пользователей на английском языке и выделять токсичные, чтобы отправить на модерацию.
 
 
-**Используемые библиотки:**
-- pandas
-- numpy 
-- matplotlib
-- plotly.express
-- scikit-learn
-- seaborn
-- statsmodels
-- catboost
-- os
-- xgboost
-- lightgbm
-- Sktime
-- ETNA
+
+## Навыки и инструменты
+
+- **python**
+- **pandas**
+- **numpy**
+- nltk.stem.**WordNetLemmatizer**
+- sklearn.feature_extraction.text.**TfidfVectorizer**
+- sklearn.linear_model.**LogisticRegression**
+- sklearn.ensemble.**RandomForestClassifier**
+- catboost.**CatBoostClassifier**
+
+
+
+## Вывод
+
+Была проведена исследовательская работа по обработке текстов и обучению и выбору модели для определения токсичных комментариев по методу TF-IDF. Выбрана линейная регрессия. Намечены шаги по дальнейшей настройке модели.
