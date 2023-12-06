@@ -1,4 +1,4 @@
-# Промышленность
+# Рекомендация тарифов
 
 [Блокнот](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/introduction_to_machine_learning/introduction_to_machine_learning.ipynb)
 
