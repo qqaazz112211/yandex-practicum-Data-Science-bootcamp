@@ -27,7 +27,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor  
 import plotly.express as px  
 from sklearn.model_selection import TimeSeriesSplit  
-from tqdm import tqdm~~~
+from tqdm import tqdm ~~~
 
 
 
