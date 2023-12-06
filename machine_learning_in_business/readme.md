@@ -1,19 +1,23 @@
+# Выбор локации для скважины
 
-| Название проекта | Описание | 
-| :---------------------- | :---------------------- |
-| Machine learning in business | Построение модели для нефтедобывающего предприятия для определения региона, где добыча принесёт наибольшую прибыль.|
+[Блокнот](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/blob/main/machine_learning_in_business/machine_learning_in_business.ipynb)
 
-**Используемые библиотки:**
-- pandas
-- numpy 
-- matplotlib
-- plotly.express
-- scikit-learn
-- seaborn
-- statsmodels
-- catboost
-- os
-- xgboost
-- lightgbm
-- Sktime
-- ETNA
+## Описание проекта
+
+Построение модели машинного обучения, которая поможет определить регион, где добыча нефти принесёт наибольшую прибыль.
+
+## Библиотеки и инструменты
+
+import pandas as pd  
+import numpy as np  
+import plotly.express as px  
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+from sklearn.model_selection import train_test_split  
+from sklearn.preprocessing import StandardScaler  
+from sklearn.linear_model import LinearRegression  
+from sklearn.metrics import mean_squared_error  
+
+## Вывод
+
+Модель построена и выполняет поставленные задачи
