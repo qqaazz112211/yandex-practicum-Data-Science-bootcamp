@@ -9,18 +9,14 @@
 ## Библиотеки и инструменты
 
 import pandas as pd  
-import matplotlib.pyplot as plt  
+import numpy as np  
+import plotly.express as px  
 import seaborn as sns  
-from sklearn.model_selection import train_test_split  
+import matplotlib.pyplot as plt  
+from sklearn.linear_model import LinearRegression  
+from sklearn.metrics import r2_score  
 from sklearn.preprocessing import StandardScaler  
-from sklearn.linear_model import LogisticRegression  
-from sklearn.tree import DecisionTreeRegressor  
-from sklearn.metrics import f1_score  
-from sklearn.tree import DecisionTreeClassifier  
-from sklearn.ensemble import RandomForestClassifier  
-from sklearn.metrics import roc_auc_score  
-from sklearn.utils import shuffle  
-
+from sklearn.model_selection import train_test_split  
 
 ## Вывод
 
