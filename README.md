@@ -3,7 +3,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1.   | [Компьютерное зрение](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/computer_vision) | Проект внедрения системы компьютерного зрения в супермаркете направлен на определение возраста покупателей в прикассовой зоне. Разработанная модель использует набор фотографий для анализа покупок и персонализированных предложений товаров, соответствующих интересам конкретной возрастной группы, а также обеспечивает контроль за продажей алкоголя, поддерживая добросовестность кассиров. | python, pandas, numpy, matplotlib, seaborn, tensorflow, plotly.express       |
 | 2.   | [Промышленность](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/final_project_industry) | Проект направлен на снижение энергопотребления на этапе обработки стали на металлургическом комбинате "Стальная птица". Задача включает разработку модели прогнозирования температуры сплава, с целью оптимизации производственных расходов и повышения эффективности процесса обработки стали | python, pandas, numpy, matplotlib, seaborn, plotly.express, os, sklearn, catboost, xgboost       |
-| 3.   | [Прогнозирование заказов такси](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/forecasting_cab_orders) | Проект нацелен на разработку модели для прогнозирования количества такси, заказываемого в аэропортах на следующий час на основе исторических данных. Основная цель - привлечение большего числа водителей в периоды пиковой нагрузки. Требование к модели: значение метрики RMSE на тестовой выборке не должно превышать 48. | python, pandas, numpy, scipy, sklearn, matplotlib       |
+| 3.   | [Прогнозирование заказов такси](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/forecasting_cab_orders) | Проект нацелен на разработку модели для прогнозирования количества такси, заказываемого в аэропортах на следующий час на основе исторических данных. Основная цель - привлечение большего числа водителей в периоды пиковой нагрузки. Требование к модели: значение метрики RMSE на тестовой выборке не должно превышать 48. | python, pandas, numpy, matplotlib, seaborn, plotly.express, os, sklearn, catboost, xgboost, statsmodels, lightgbm, tqdm       |
 | 4.   | [Рекомендация тарифов](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/introduction_to_machine_learning) |Оператор связи хочет предложить клиентам новые тарифы на основе анализа поведения пользователей, использующих архивные тарифы. На вас лежит задача построить модель классификации («Смарт» или «Ультра») на основе предоставленных данных без необходимости предобработки. Цель проекта — достичь высокого значения accuracy, не менее 0.75 на тестовой выборке. Пожалуйста, проверьте accuracy самостоятельно.| python, pandas, numpy, scipy, sklearn, matplotlib       |
 | 5.   | [Отток клиентов](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/learning_with_a_teacher) | Банк столкнулся с оттоком клиентов, и маркетологи приняли решение о создании модели прогнозирования ухода клиентов на основе исторических данных. Цель проекта — построить модель с максимальным значением F1-меры, не менее 0.59 на тестовой выборке. Дополнительно, следует измерять AUC-ROC и сравнивать его значение с F1-мерой.| python, pandas, numpy, scipy, sklearn, matplotlib       |
 | 6.   | [Защита персональных данных клиентов](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/linear_algebra) | Разработка метода анонимизации данных для защиты персональной информации клиентов страховой компании. Главная цель — обеспечить сложность восстановления персональных данных, сохраняя при этом качество моделей машинного обучения| python, pandas, numpy, scipy, sklearn, matplotlib       |
@@ -13,4 +13,25 @@
 | 10.   | [Сборный проект-1](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/prefabricated_project_1) | В интернет-магазине собраны открытые данные о продажах компьютерных игр, включая информацию о рейтингах, оценках пользователей и экспертов, жанрах, и платформах. Задача заключается в выявлении факторов, влияющих на успешность игр, для прогнозирования популярных продуктов и планирования рекламных кампаний. Данные представлены до 2016 года, и цель - отработать принципы работы с информацией для планирования кампании на 2017 год, независимо от того, используются ли данные 2016 года для прогноза продаж на 2017 год или данные будущих лет для долгосрочного планирования. В данных также присутствует аббревиатура ESRB, которая определяет возрастной рейтинг | python, pandas, numpy, scipy, sklearn, matplotlib       |
 | 11.   | [Сборный проект-2](https://github.com/qqaazz112211/yandex-practicum-Data-Science-bootcamp/tree/main/prefabricated_project_2) | Для компании, занимающейся решениями для промышленных предприятий, создается прототип модели машинного обучения. Модель должна предсказывать коэффициент восстановления золота из руды. Работа включает подготовку данных, исследовательский анализ и построение модели с использованием библиотек pandas, matplotlib и sklearn. Проект направлен на оптимизацию производства, предотвращая запуск убыточных процессов на предприятии. | python, pandas, numpy, scipy, sklearn, matplotlib       |
 
-pandas, numpy, matplotlib, seaborn, plotly.express, os, sklearn, catboost, xgboost
+pandas, numpy, matplotlib, seaborn, plotly.express, os, sklearn, catboost, xgboost, statsmodels, lightgbm, tqdm
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.stattools import adfuller
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import mean_squared_error
+from catboost import CatBoostRegressor
+from lightgbm import LGBMRegressor
+from statsmodels.tsa.seasonal import seasonal_decompose
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import cross_val_score
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+import plotly.express as px
+from sklearn.model_selection import TimeSeriesSplit
+from tqdm import tqdm
